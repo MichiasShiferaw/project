@@ -1,49 +1,132 @@
-import { CarComponent} from './Car/carComponent';
 import {default as Booking} from '../Booking/booking'
 import {default as ConfirmModal} from '../Modal/confirmModal';
 import {default as Terms} from "./terms";
-import PersonalInfo from './personalInfo';
-export default function Checkout () {
+import React, { Component } from 'react';
+import Data from './Car/carInfo.json';
+export default class Checkout extends Component {
+    constructor(props) {
+    super(props);
+    this.state = {
+      year1:'2022',
+      make1:'Audi',
+      size1:'Coupe',
+      model1:'R8',
+      firstName:'',
+      lastName:'',
+      email: '',
+      phoneNumber:'',
+      unqiueTags:[]
+    };
+    this.onYearChange = this.onYearChange.bind(this);
+    this.onMakeChange = this.onMakeChange.bind(this);
+    this.onSizeChange = this.onSizeChange.bind(this);
+    this.onModelChange = this.onModelChange.bind(this);
+    this.onSubmitForm = this.onSubmitForm.bind(this);
+    this.handleChange = this.handleChange.bind(this);
+
+  }
+  handleChange(event) {
+  const value = event.target.value;
+  this.setState({
+    ...this.state,
+    [event.target.name]: value
+  });
+
+}
+
+  onYearChange(event) {
+
+    this.setState({
+      year1: event.target.value,
+      model1:1,
+      make1:1,
+      size1:1,
+      unqiueTags:[]
+    });
+  }
+
+    onMakeChange(event) {
+
+    this.setState({
+      make1: event.target.value,
+            model1:1,
+      size1:1,
+      unqiueTags:[]
+    });
+
+
+  }
+
+    onSizeChange(event) {
+    this.setState({
+      
+      size1: event.target.value,
+      model1:1,
+      unqiueTags:[]
+    });
+
+  }
+
+    onModelChange(event) {
+
+    this.setState({
+      model1: event.target.value
+    });
+  }
+
+
+  onSubmitForm() {
+     console.log(this.state)
+  }
+  
+  render(){
     return (
       <>
       <div className="container" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabIndex="0">
             <div id="scrollspyHeading1" className="col-sm-12 col-lg-12 order-md-last">
         <h4 className="d-flex justify-content-between align-items-center mb-3">
           <span className="text-primary">Your cart</span>
-          <span className="badge bg-primary rounded-pill">3</span>
+          <span className="badge bg-primary rounded-pill">4</span>
         </h4>
         <ul className="list-group mb-3">
           <li className="list-group-item d-flex justify-content-between lh-sm">
-            <div>
-              <h6  className="my-0">Oil Change</h6>
-              <small className="text-muted">Brief description</small>
+            <div className="my-0 ms-0">
+              <h6  className="my-0 ms-0">Oil Change</h6>
+              <small className="text-muted">3.5L Synthetic</small>
             </div>
-            <span className="text-muted">$12</span>
+            <span className="text-muted">$12.99</span>
           </li>
           <li className="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 className="my-0">Second product</h6>
-              <small className="text-muted">Brief description</small>
+              <h6 className="my-0">Air Filter</h6>
+              <small className="text-muted">Paper: Vers. AED 50</small>
             </div>
-            <span className="text-muted">$8</span>
+            <span className="text-muted">$14.99</span>
           </li>
           <li className="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 className="my-0">Third item</h6>
-              <small className="text-muted">Brief description</small>
+              <h6 className="my-0">Tire Purchase</h6>
+              <small className="text-muted">Bridgestone Summer Sets</small>
             </div>
-            <span className="text-muted">$5</span>
+            <span className="text-muted">$145</span>
+          </li>
+                    <li className="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 className="my-0">Tire Installation</h6>
+              <small className="text-muted">All Tires</small>
+            </div>
+            <span className="text-muted">$65</span>
           </li>
           <li className="list-group-item d-flex justify-content-between bg-light">
             <div className="text-success">
               <h6 className="my-0">Promo code</h6>
-              <small>EXAMPLECODE</small>
+              <small>SUMMERDEALS</small>
             </div>
-            <span className="text-success">−$5</span>
+            <span className="text-success">−$55</span>
           </li>
           <li className="list-group-item d-flex justify-content-between">
             <span>Total (CDN)</span>
-            <strong>$20</strong>
+            <strong>$182.98</strong>
           </li>
         </ul>
 
@@ -62,7 +145,45 @@ export default function Checkout () {
           <span className="text-primary">Car Info</span>
           <span className="badge bg-primary rounded-pill"><i className="bi bi-truck"></i></span>
         </h4>
-        <CarComponent/>
+        <div>
+        {/* <ConfirmModal 
+        year1={this.state.year1}  onYearChange={this.onYearChange.bind(this)} 
+        model1={this.state.model1}  onModelChange={this.onModelChange.bind(this)} 
+        size1={this.state.size1} onSizeChange={this.onSizeChange.bind(this)} 
+        make1={this.state.make1} onMakeChange={this.onMakeChange.bind(this)} /> */}
+        <select value={this.state.year1} name="Year" onChange={this.onYearChange} className="form-select my-3" aria-label="Default select example" required>
+            {/* {Data[0][2005]} */}
+            
+             {Object.keys(Data).map((opt,index)=>(
+              <option key={index} value={opt}>{opt}</option>
+            ))} 
+            
+        </select>
+
+        <select value={this.state.make1} name="Make" onChange={this.onMakeChange} className="form-select my-3" aria-label="Default select example" required>
+            <option>Select Make</option>
+             {Object.keys(Data[this.state.year1]).map((opt,index)=>(
+              <option key={index} value={opt}>{opt}</option>
+            ))} 
+        </select>
+
+        <select value={this.state.size1} name="Size" onChange={this.onSizeChange} className="form-select my-3" aria-label="Default select example">
+            <option>Select Size</option>
+
+            { Data[this.state.year1][this.state.make1] ? Object.keys(Data[this.state.year1][this.state.make1]).map((opt,index)=>(
+              <option key={index}value={opt}>{opt}</option>
+            )) : null }
+            
+        </select>
+
+        <select value={this.state.model1} name="Model" onChange={this.onModelChange} className="form-select my-3" aria-label="Default select example" required>
+            <option>Select Model</option> 
+            { Data[this.state.year1]?.[this.state.make1]?.[this.state.size1] ? (Data[this.state.year1][this.state.make1][this.state.size1]).map((opt,index)=>(
+              <option key={index} value={opt}>{opt}</option>
+            )) : null }
+
+        </select>
+      </div>
       </div>
       <hr/>
       <div className="col-md-12 col-lg-12">
@@ -72,8 +193,41 @@ export default function Checkout () {
 
            <hr className="my-4"/>
         <h4 id="personalInfo"className="mb-3">Personal Info</h4>
-        <form className="needs-validation">
-          <PersonalInfo/>
+        <form autoComplete='on' onSubmit={this.onSubmit}>
+                <div className="row g-3">
+            <div className="col-sm-6">
+              <label htmlFor="firstName" className="form-label" >First name</label>
+              <input type="text" className="form-control" id="firstName" placeholder="Joe" name='firstName' value= {this.state.firstName} onChange={(e) => {     this.handleChange(e); }} required/>
+            </div>
+
+            
+
+            <div className="col-sm-6">
+              <label htmlFor="lastName" className="form-label">Last name</label>
+              <input type="text" className="form-control" id="lastName" placeholder="Smoe" name='lastName'value= {this.state.lastName} onChange={(e) => {     this.handleChange(e); }}required/>
+            </div>
+            <div className="col-12">
+              <label htmlFor="email" type="email" className="form-label">Email </label>
+              <div className="input-group has-validation">
+              <span className="input-group-text">
+                                <i className="bi bi-envelope-fill"></i>
+                            </span>
+              <input type="email" className="form-control" id="email" placeholder="you@example.com"name='email' defaultValue= {this.state.email} onChange={(e) => {     this.handleChange(e); }}required/>
+              </div>
+            </div>
+
+            <div className="col-12">
+                <div>
+              <label htmlFor="number" className="form-label">Phone Number </label>
+              <div className="input-group has-validation">
+              <span className="input-group-text">
+                                <i className="bi bi-telephone-fill"></i>
+                            </span>
+              <input type="tel" className="form-control" placeholder="(234)-567-8910" id="phoneNumber" name='phoneNumber' defaultValue= {this.state.phoneNumber} onChange={(e) => {     this.handleChange(e); }}required/>
+              </div>
+              </div>
+            </div>
+          </div>
 
           <hr className="my-4"/>
 
@@ -82,28 +236,17 @@ export default function Checkout () {
 
           <hr className="my-4"/>
           
-          {/* <ConfirmModal/>
-          <span type="submit">Continue to checkout</span>
-          </ConfirmModal> */}
-           {/* <button data-bs-target="#staticBackdrop" data-bs-dismiss="offcanvas" data-bs-toggle="#staticBackdrop" className="w-100 btn btn-primary btn-lg" type="button"><ConfirmModal/></button>  */}
 
-{/* 
-           <button type="button" data-bs-dismiss="offcanvas">
-              <a data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="Tooltip">
-                Hover Me           
-              </a>
-          </button> */}
-           {/* <button type="button" data-bs-dismiss="offcanvas" className=" btn-lg">Confirm123 */}
-           {/* <button onClick={<ConfirmModal/>} className="btn btn-primary" data-bs-backdrop="false" data-bs-toggle="modal" data-bs-target="#exampleModalToggle"
-            type="submit"
-           >
-             Submit form</button>
 
-                        <button className="btn btn-primary"
-           >
-             Submit form1</button> */}
-
-            <ConfirmModal/> 
+                    <ConfirmModal 
+        year1={this.state.year1}  onYearChange={this.onYearChange.bind(this)} 
+        model1={this.state.model1}  onModelChange={this.onModelChange.bind(this)} 
+        size1={this.state.size1} onSizeChange={this.onSizeChange.bind(this)} 
+        make1={this.state.make1} onMakeChange={this.onMakeChange.bind(this)} 
+        lastName={this.state.lastName}
+        email={this.state.email}
+        phoneNumber={this.state.phoneNumber}
+        firstName={this.state.firstName} handleChange={this.handleChange.bind(this)}/>
 {/* </button>  */}
 
 
@@ -114,4 +257,5 @@ export default function Checkout () {
 </>
 );
 };
+}
 

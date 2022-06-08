@@ -1,6 +1,5 @@
 import Data from './carInfo.json';
 import React, { Component } from "react";
-import ConfirmModal from '../../Modal/confirmModal';
 
 
 export class CarComponent extends Component {
@@ -17,7 +16,6 @@ export class CarComponent extends Component {
     this.onMakeChange = this.onMakeChange.bind(this);
     this.onSizeChange = this.onSizeChange.bind(this);
     this.onModelChange = this.onModelChange.bind(this);
-    this.onInputChange = this.onInputChange.bind(this);
     this.onSubmitForm = this.onSubmitForm.bind(this);
 
   }
@@ -46,7 +44,6 @@ export class CarComponent extends Component {
   }
 
     onSizeChange(event) {
-console.log(this.state.size1);
     this.setState({
       
       size1: event.target.value,
@@ -62,13 +59,7 @@ console.log(this.state.size1);
       model1: event.target.value
     });
   }
-  onInputChange(event) {
-    this.setState({
-      [event.target.name]: event.target.value
-    });
 
-
-  }
 
   onSubmitForm() {
     // console.log(this.state)
@@ -77,10 +68,11 @@ console.log(this.state.size1);
   render() {
     return (
       <div>
-        <ConfirmModal year1={this.state.year1}/>
-        <ConfirmModal model1={this.state.model1}/>
-        <ConfirmModal size1={this.state.size1}/>
-        <ConfirmModal make1={this.state.make1}/>
+        {/* <ConfirmModal 
+        year1={this.state.year1}  onYearChange={this.onYearChange.bind(this)} 
+        model1={this.state.model1}  onModelChange={this.onModelChange.bind(this)} 
+        size1={this.state.size1} onSizeChange={this.onSizeChange.bind(this)} 
+        make1={this.state.make1} onMakeChange={this.onMakeChange.bind(this)} /> */}
         <select value={this.state.year1} name="Year" onChange={this.onYearChange} className="form-select my-3" aria-label="Default select example">
             {/* {Data[0][2005]} */}
             
