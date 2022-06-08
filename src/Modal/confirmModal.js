@@ -46,8 +46,8 @@ export class ConfirmModal extends Component {
 <div className="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabIndex="-1">
   <div className="modal-dialog modal-dialog-centered">
     <div className="modal-content">
-      <div className="modal-header">
-        <h2 className="modal-title" id="exampleModalToggleLabel2">You Are Booked!</h2>
+      <div style={{backgroundColor:"#24cb01"}} className="modal-header">
+        <h2 className="modal-title" id="exampleModalToggleLabel2">You Are Booked!<i className="bi bi-check"></i></h2>
         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div className="modal-body">
@@ -59,6 +59,14 @@ export class ConfirmModal extends Component {
         </p>
         <i style={{fontSize:116}} className="bi bi-qr-code-scan"></i>
         <h4 className="mt-0">Booking ID: <i>{Date.now()}</i></h4>
+        <p>Please arrive <b>at least 10 minutes before </b> your scheduled appointment</p>
+        <br/>
+        
+        <div style={{backgroundColor:"#E0E0E0"}}>
+        <hr/>
+<h5><b>Need a Car while we are working on yours?</b></h5> <p><br/> Check the button below for some of the cheapest rentals in your city</p>
+        <a className="btn btn-success" href="https://www.rentalcars.com/us/city/ca/ottawa/" rel="noreferrer" target="_blank">Car Rental in Ottawa</a>
+        </div>
       </div>
       <div className="modal-footer">
         <button className="btn btn-secondary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Go Back</button>

@@ -23,7 +23,7 @@ function ServiceCard () {
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Iure, quas quidem possimus dolorum esse eligendi?
                         </p>
-                        <a href="/#" className="btn btn-dark">Read More</a>
+                        <a href="#prices" className="btn btn-dark">Read More</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ function ServiceCard () {
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Iure, quas quidem possimus dolorum esse eligendi?
                         </p>
-                        <a href="/#" style={{backgroundColor:"#3A5BA0"}}className="btn">Read More</a>
+                        <a href="#prices" style={{backgroundColor:"#3A5BA0"}}className="btn">Read More</a>
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ function ServiceCard () {
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Iure, quas quidem possimus dolorum esse eligendi?
                         </p>
-                        <a href="/#" className="btn btn-dark">Read More</a>
+                        <a href="#heading-1" className="btn btn-dark">Read More</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ function ServiceCard () {
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Iure, quas quidem possimus dolorum esse eligendi?
                         </p>
-                        <a href="/#" style={{backgroundColor:"#3A5BA0"}}className="btn">Read More</a>
+                        <a href="#heading-2" style={{backgroundColor:"#3A5BA0"}}className="btn">Read More</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@ function ServiceCard () {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                     Iure, quas quidem possimus dolorum esse eligendi?
                                 </p>
-                                <a href="/#" style={{backgroundColor:"#3A5BA0"}}className="btn">Read More</a>
+                                <a href="#heading-3" style={{backgroundColor:"#3A5BA0"}}className="btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ function ServiceCard () {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                     Iure, quas quidem possimus dolorum esse eligendi?
                                 </p>
-                                <a href="/#" className="btn btn-dark">Read More</a>
+                                <a href="#heading-4" className="btn btn-dark">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ function ServiceCard () {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                     Iure, quas quidem possimus dolorum esse eligendi?
                                 </p>
-                                <a href="/#" style={{backgroundColor:"#3A5BA0"}} className="btn">Read More</a>
+                                <a href="#heading-5" style={{backgroundColor:"#3A5BA0"}} className="btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ function ServiceCard () {
                                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                                     Iure, quas quidem possimus dolorum esse eligendi?
                                 </p>
-                                <a href="/#" className="btn btn-dark">Read More</a>
+                                <a href="#heading-6" className="btn btn-dark">Read More</a>
                             </div>
                         </div>
                     </div>

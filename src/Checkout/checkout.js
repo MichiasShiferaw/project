@@ -11,10 +11,10 @@ export default class Checkout extends Component {
       make1:'Audi',
       size1:'Coupe',
       model1:'R8',
-      firstName:'',
-      lastName:'',
-      email: '',
-      phoneNumber:'',
+      firstName:'Joe',
+      lastName:'Smoe',
+      email: 'jsmoe123@uottawa.ca',
+      phoneNumber:'123-456-6789',
       unqiueTags:[]
     };
     this.onYearChange = this.onYearChange.bind(this);
