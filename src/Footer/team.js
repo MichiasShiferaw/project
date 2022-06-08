@@ -4,7 +4,7 @@ export default function Team (){
         <div className="container">
             <h2 className="text-center text-dark">About the Team</h2>
             <p className="lead text-center text-dark mb-5">
-                Our mechanics work hard everyday just to see you smile as your drive off             industry
+                Our mechanics work hard everyday just to see you smile as your drive off
             </p>
             <div className="row g-4 pb-3">
                 <div className="col-md-6 col-lg-3">

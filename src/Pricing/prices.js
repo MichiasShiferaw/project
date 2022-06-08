@@ -6,7 +6,18 @@ export default function Prices (){
 <h1 className="text-center text-primary"><b>Services &amp; Prices</b></h1>
                     <div className="row my-5 g-5 justify-content-around align-items-center">
                 <div className="col-6 col-lg-6">
-                    <img src="/assets/images/car.png" className="img-fluid" alt="ebook"/>
+                    <img src="/assets/images/car1.png" className="img-fluid" alt="ebook" useMap="#image-map"/>
+                <map name="image-map">
+                    <area target="" alt="Wiper Blades" title="Wiper Blades" href="#wipers" coords="75,64,51" shape="circle"/>
+                    <area target="" alt="Engine Air Filter" title="Engine Air Filter" href="#filter" coords="75,242,49" shape="circle"/>
+                    <area target="" alt="Tire Purchase/Installation" title="Tire Purchase/Installation" href="#tire" coords="74,372,51" shape="circle"/>
+                    <area target="" alt="Lights" title="Lights" href="#light" coords="686,65,65" shape="circle"/>
+                    <area target="" alt="Car Battery" title="Car Battery" href="#battery" coords="685,256,75" shape="circle"/>
+                    <area target="_blank" alt="Oil Filter" title="Oil Filter" href="#oil" coords="685,429,69" shape="circle"/>
+                    <area target="" alt="Lights" title="Lights" href="#light" coords="686,65,39" shape="circle"/>
+                    <area target="" alt="Car Battery" title="Car Battery" href="#battery" coords="685,256,41" shape="circle"/>
+                    <area target="_blank" alt="Oil Filter" title="Oil Filter" href="#oil" coords="685,429,39" shape="circle"/>
+                </map>
                 </div>
                 <div className="col-lg-6">
         
@@ -33,7 +44,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                    <table className="table">
+                                    <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -69,6 +81,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +104,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                                        <table className="table">
+                                                        <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -127,6 +141,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +164,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                                       <table className="table">
+                                                       <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -185,6 +201,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -207,7 +224,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                                        <table className="table">
+                                                        <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -243,6 +261,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -265,7 +284,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                                        <table className="table">
+                                                        <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -301,6 +321,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -323,7 +344,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                                        <table className="table">
+                                                        <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -359,6 +381,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -381,7 +404,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                                        <table className="table">
+                                                        <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -417,6 +441,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
@@ -439,7 +464,8 @@ export default function Prices (){
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
-                                                        <table className="table">
+                                                        <div className="table-responsive">
+  <table className="table">
                 <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
@@ -475,6 +501,7 @@ export default function Prices (){
                     </tr>
                 </tbody>
             </table>
+            </div>
                                 </div>
                             </div>
                         </div>
