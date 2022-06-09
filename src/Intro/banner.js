@@ -12,7 +12,7 @@ export const Headline=()=>{
 export const Steps=()=>{
     return (
       <>
-<section className="bg-secondary text-light p-5">
+      <div className="container-md bg-secondary text-light p-5">
 
 <div className="row">
       <div className="col-lg-3">
@@ -49,7 +49,7 @@ export const Steps=()=>{
         <p><a className="btn btn-secondary" href="/#">View details »</a></p>
       </div>
     </div>
-    </section>
+    </div>
     </>
 );
 };

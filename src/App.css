@@ -78,6 +78,11 @@
   width: 100%;
 }
 
+
+.serviceDescription{
+  text-align: start !important;
+}
+
 .carousel-inner>.item>video,
 .carousel-inner>.item>a>video {
   width: 100%;
