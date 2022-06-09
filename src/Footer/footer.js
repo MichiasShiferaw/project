@@ -10,18 +10,21 @@ function Footer2 () {
     <div className="col-6 col-md">
       <h5>Features</h5>
       <ul className="list-unstyled text-small">
-        <li><a className="link-secondary" href="/#">FAQ</a></li>
-        <li><a className="link-secondary" href="/#">Mechanics Glossary</a></li>
-        <li><a className="link-secondary" href="/#">Disclaimers</a></li>
+        <li><b>Main Location: </b><a className="link-secondary" href="/#">42 Wallaby Way </a></li>
+        <li><b>Corporate #: </b> <a className="link-secondary" href="/#">(555) 555-5555 </a></li>
+        <li><b>Corporate @: </b><a className="link-secondary" href="/#">car@doctor.com </a></li>
+
       </ul>
     </div>
     <div className="col-6 col-md">
       <h5>Corporate Info</h5>
       <ul className="list-unstyled text-small">
+
         <li><a className="link-secondary" href="/#">About Us</a></li>
         <li><a className="link-secondary" href="/#">Careers</a></li>
         <li><a className="link-secondary" href="/#">Warranty</a></li>
         <li><a className="link-secondary" href="/#">Terms &amp; Conditions</a></li>
+        <li><a className="link-secondary" href="/#">Disclaimers</a></li>
       </ul>
     </div>
     <div className="col-6 col-md">
@@ -29,6 +32,7 @@ function Footer2 () {
       <ul className="list-unstyled text-small">
         <li><a className="link-secondary" href="/#">Customer Service</a></li>
         <li><a className="link-secondary" href="/#">My Account</a></li>
+        <li><a className="link-secondary" href="/#">Mechanics Glossary</a></li>
         <li><a className="link-secondary" href="/#">News &amp; Events</a></li>
         <li><a className="link-secondary" href="/#">Legal &amp; Privacy</a></li>   
       </ul>

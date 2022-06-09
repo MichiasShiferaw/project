@@ -9,7 +9,6 @@ import {default as Sidebar} from './sidebar';
 import {default as Banner} from './Intro/index';
 import {default as Promo} from './Intro/promo';
 import {default as Prices} from './Pricing/prices';
-import {default as ContactInfo} from './Footer/contactInfo';
 import {default as Team} from './Footer/team';
 import {default as NavBar } from './Intro/Navbar/navbar'
 // import {default as CarComponent} from './Checkout/Car/carComponent';
@@ -32,7 +31,7 @@ function App() {
       
       {/* <Booking/> */}
       <Team/>
-      <ContactInfo/>
+
       {/* <CarComponent/> */}
       <Footer/>
 

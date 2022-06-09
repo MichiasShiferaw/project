@@ -2,8 +2,8 @@ export default function Team (){
     return(
     <section id="instructors" className="p-5 bg-light">
         <div className="container">
-            <h2 className="text-center text-white">About the Team</h2>
-            <p className="lead text-center text-white mb-5">
+            <h2 className="text-center text-dark">About the Team</h2>
+            <p className="lead text-center text-dark mb-5">
                 Our instructors all have 5+ years working as a web developer in the
                 industry
             </p>
@@ -12,15 +12,13 @@ export default function Team (){
                     <div className="card bg-transparent">
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile1.png" width= "100%" className="rounded-circle mb-3" alt="" />
-                            <h3 className="card-title mb-3">John Doe</h3>
+                            <h3 className="card-title mb-3">Maddox</h3>
                             <p className="card-text">
-                                <b>ROLE: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                <b>NICKNAME: </b><i>MadDog</i><br/>
+                                <b>ROLE: </b><i>Senior Mechanic</i><br/>
+                                <b>START DATE: </b> <i>2011</i>
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -28,15 +26,13 @@ export default function Team (){
                     <div className="card bg-transparent">
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile2.png" width= "100%" className="rounded-circle mb-3" alt="" />
-                            <h3 className="card-title mb-3">Yo Mama</h3>
+                            <h3 className="card-title mb-3">Duncan</h3>
                             <p className="card-text">
-                                <b>ROLE: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                <b>NICKNAME: </b><i>Dunc'</i><br/>
+                                <b>ROLE: </b><i>Supervisor</i><br/>
+                                <b>START DATE: </b> <i>2016</i>
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -45,15 +41,13 @@ export default function Team (){
                     <div className="card bg-transparent">
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile3.png" width= "100%" className="rounded-circle mb-3" alt="" />
-                            <h3 className="card-title mb-3">Jane Doe</h3>
+                            <h3 className="card-title mb-3">Kathryn</h3>
                             <p className="card-text">
-                                <b>ROLE: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                <b>NICKNAME: </b><i>Kathy</i><br/>
+                                <b>ROLE: </b><i>Senior Mechanic</i><br/>
+                                <b>START DATE: </b> <i>2019</i>
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -62,15 +56,13 @@ export default function Team (){
                     <div className="card bg-transparent">
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile2.png" width= "100%" className="rounded-circle mb-3" alt="" />
-                            <h3 className="card-title mb-3">Steve Smith</h3>
+                            <h3 className="card-title mb-3">Travis</h3>
                             <p className="card-text">
-                                <b>Role: </b><b>ROLE: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                <b>NICKNAME: </b><i>Travy-Patty</i><br/>
+                                <b>ROLE: </b><i>Junior Mechanic</i><br/>
+                                <b>START DATE: </b> <i>2015</i>
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -81,17 +73,14 @@ export default function Team (){
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile3.png" width= "100%" className="rounded-circle mb-3"
                                 alt="" />
-                            <h3 className="card-title mb-3">John Doe</h3>
+                            <h3 className="card-title mb-3">Robbert</h3>
                             <p className="card-text">
-                                <b>NICKNAME: </b><i>Senior Mechanic</i><br/>
-                                <b>ROLE: </b><i>Senior Mechanic</i><br/>
-                                <b>START DATE: </b> <i>2001</i>
+                                <b>NICKNAME: </b><i>Bobby</i><br/>
+                                <b>ROLE: </b><i>Junior Mechanic</i><br/>
+                                <b>START DATE: </b> <i>2020</i>
 
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -101,15 +90,13 @@ export default function Team (){
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile1.png" width= "100%" className="rounded-circle mb-3"
                                 alt="" />
-                            <h3 className="card-title mb-3">Jane Doe</h3>
+                            <h3 className="card-title mb-3">Michael</h3>
                             <p className="card-text">
-                                <b>ROLE: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                <b>NICKNAME: </b><i>Mike</i><br/>
+                                <b>ROLE: </b><i>Junior Mechanic</i><br/>
+                                <b>START DATE: </b> <i>2021</i>
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -119,15 +106,13 @@ export default function Team (){
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile2.png" width= "100%" className="rounded-circle mb-3"
                                 alt="" />
-                            <h3 className="card-title mb-3">Steve Smith</h3>
+                            <h3 className="card-title mb-3">Steve</h3>
                             <p className="card-text">
-                                <b>ROLE: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                <b>NICKNAME: </b><i>--</i><br/>
+                                <b>ROLE: </b><i>Junior Mechanic</i><br/>
+                                <b>START DATE: </b> <i>2021</i>
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -137,15 +122,13 @@ export default function Team (){
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile3.png" width= "100%" className="rounded-circle mb-3"
                                 alt="" />
-                            <h3 className="card-title mb-3">Sara Smith</h3>
+                            <h3 className="card-title mb-3">Sara </h3>
                             <p className="card-text">
-                                <b>ROLE: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.
+                                <b>NICKNAME: </b><i>--</i><br/>
+                                <b>ROLE: </b><i>NEW Mechanic</i><br/>
+                                <b>START DATE: </b> <i>2022</i>
                             </p>
-                            <a href="/#"><i className="bi bi-twitter text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-facebook text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-linkedin text-dark mx-1"></i></a>
-                            <a href="/#"><i className="bi bi-instagram text-dark mx-1"></i></a>
+                            
                         </div>
                     </div>
                 </div>
