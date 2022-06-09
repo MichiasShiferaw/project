@@ -1,7 +1,7 @@
 
 function Footer2 () {
     return (
-      <><footer className="container pt-4 bg-warning">
+      <><footer className="container pt-4 bg-light">
   <div className="row">
     <div className="col-12 col-md">
       <img src= "/assets/images/Logo.png" width="100%" className="img-3" alt="1"/>

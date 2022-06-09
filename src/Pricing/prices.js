@@ -4,7 +4,7 @@ export default function Prices (){
     <div className="card border-primary">
         <div className="card-header text-center text-primary"><b>Services &amp; Prices</b></div>
         <div className="card-body text-center py-5">
-            <h4 className="card-title">Complete Edition</h4>
+            <h4 className="card-title">Select A Service to View Our Prices </h4>
 
             <div className="accordion" id="chapters">
                         <div className="accordion-item">

@@ -1,4 +1,4 @@
-import Data from './carInfo2.json';
+import Data from './carInfo.json';
 import React, { Component } from "react";
 import ConfirmModal from '../../Modal/confirmModal';
 
@@ -19,9 +19,7 @@ export class CarComponent extends Component {
     this.onModelChange = this.onModelChange.bind(this);
     this.onInputChange = this.onInputChange.bind(this);
     this.onSubmitForm = this.onSubmitForm.bind(this);
-    // for (x in Data){
-    //   this.onYearChange
-    // }
+
   }
 
   onYearChange(event) {
@@ -56,7 +54,6 @@ console.log(this.state.size1);
       unqiueTags:[]
     });
 
-    // console.log(Data[this.state.year1][this.state.make1].length)
   }
 
     onModelChange(event) {
@@ -74,8 +71,7 @@ console.log(this.state.size1);
   }
 
   onSubmitForm() {
-    //this.props.onFormSubmit(this.state)
-    console.log(this.state)
+    // console.log(this.state)
   }
 
   render() {
@@ -114,26 +110,7 @@ console.log(this.state.size1);
             <option>Select Model</option> 
             { Data[this.state.year1]?.[this.state.make1]?.[this.state.size1] ? (Data[this.state.year1][this.state.make1][this.state.size1]).map((opt)=>(
               <option value={opt}>{opt}</option>
-            )) 
-            
-        //     : 
-        //      Data[this.state.year1]?.[this.state.make1] ? Object.keys(Data[this.state.year1][this.state.make1]).map((opt)=>{
-        //       // let unqiueTags=[];
-        //        let arr= Data[this.state.year1][this.state.make1][opt];
-        //       for (var x in arr){
-        //         {(this.state.unqiueTags.indexOf(arr[x])===-1)?
-        //           <option value={arr[x]}>{arr[x]}</option>
-        //           : null} 
-        //     //console.log(arr[x])
-        //     //console.log(this.state.unqiueTags.length)
-        //     // console.log(Data[this.state.year1][this.state.make1][opt][x])
-        //   }
-         
-        // })
-
-
-            //  ))                
-               : null }
+            )) : null }
 
         </select>
         
