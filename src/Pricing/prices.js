@@ -400,7 +400,7 @@ export default function Prices (){
                             </div>
                         </div>
                     </div>
-            <button class="btn btn-outline-primary btn-lg mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Begin Shopping</button>
+            <button className="btn btn-outline-primary btn-lg mt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Begin Shopping</button>
         </div>
     </div>
 </div>
