@@ -1,10 +1,11 @@
 import Data from './carInfo2.json';
 import React, { Component } from "react";
+import ConfirmModal from '../../Modal/confirmModal';
 
 
 export class CarComponent extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       year1:'2022',
       make1:'Audi',
@@ -80,6 +81,10 @@ console.log(this.state.size1);
   render() {
     return (
       <div>
+        <ConfirmModal year1={this.state.year1}/>
+        <ConfirmModal model1={this.state.model1}/>
+        <ConfirmModal size1={this.state.size1}/>
+        <ConfirmModal make1={this.state.make1}/>
         <select value={this.state.year1} name="Year" onChange={this.onYearChange} className="form-select my-3" aria-label="Default select example">
             {/* {Data[0][2005]} */}
             

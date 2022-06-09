@@ -2,7 +2,7 @@
 
 export default function Promo() {
   return (
-    <div className="container pt-4 bg-dark">
+    <div className="container pt-4 bg-transparent">
 <div id="carouselExampleInterval" className="carousel slide carousel-fade justify-content-center align-items-center" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -12,19 +12,20 @@ export default function Promo() {
   
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="10000">
-      <img src="/assets/images/Guy.png" className="img-3" alt="1"/>
-      <p><a className="btn btn-lg btn-primary" href="#/">Sign up on Your Phone Today</a></p>
+      <video className='d-block videoTag' autoPlay loop muted><source src="/assets/images/Promo_Video1.mp4" type='video/mp4' /></video>
+      {/* <img src="/assets/images/Promo_Video.mp4" className="img-3" alt="1"/> */}
+      {/* <p><a className="btn btn-lg btn-primary" href="#/">Sign up on Your Phone Today</a></p> */}
     </div>
     <div className="carousel-item" data-bs-interval="10000">
-      <img src="/assets/images/car.png" className="img-3" alt="2"/>
+      <img src="/assets/images/promoImg2.png" className="d-block img-3" alt="2"/>
     </div>
     <div className="carousel-item">
-        <p className="text-end"><a className="btn btn-lg btn-primary" href="#/">Learn More</a></p>
-      <img src="/assets/images/Mechanic1.png" className="img-3" alt="3"/>
+        {/* <p className="text-end"><a className="btn btn-lg btn-primary" href="#/">Learn More</a></p> */}
+      <img src="/assets/images/promoImg12.png" className="d-block img-3" alt="3"/>
     </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+  <button  className="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span  className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
   <button className="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">

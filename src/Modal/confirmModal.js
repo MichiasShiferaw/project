@@ -1,11 +1,19 @@
 import PersonalInfo from "../Checkout/personalInfo";
+import { CarComponent } from "../Checkout/Car/carComponent";
+import React, { Component } from "react";
 
-function ConfirmModal () {
+export class ConfirmModal extends Component {
+  somefunction(){
+    console.log(this.props.make1)
+    return (this.props.year1 && this.props.make1)
+  }
+  render(){
     return (
               <>
+              {this.somefunction()}
               {/* className="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" type="submit" role="button">Open first modal */}
-<button data-bs-dismiss="offcanvas"type="submit" data-bs-toggle="modal" data-bs-backdrop="false" data-bs-target="#exampleModalToggle" className=" btn-lg">Confirm
-</button>
+{/* <button data-bs-dismiss="offcanvas"type="submit" data-bs-toggle="modal" data-bs-backdrop="false" data-bs-target="#exampleModalToggle" className=" btn-lg">Confirm
+</button> */}
 
 
 <div className="modal fade" data-bs-keyboard="false" data-bs-backdrop="static"id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
@@ -18,8 +26,14 @@ function ConfirmModal () {
       <div className="modal-body">
         Please Confirm by Proceeding
         <br/>
-        Name: {PersonalInfo}
-        {console.log(PersonalInfo)}
+        Car Infomation
+        <hr/>
+        Year: {this.props.year1}
+        <br/>
+        Make:{this.props.make1}
+        <br/>
+        Model:{this.props.model}
+        {/* {console.log(CarComponent).state} */}
       </div>
       <div className="modal-footer">
         <button className="btn btn-success" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Confirm</button>
@@ -53,6 +67,7 @@ function ConfirmModal () {
 
 </>
 );
+    }
 };
 
     export default ConfirmModal;

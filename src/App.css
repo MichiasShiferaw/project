@@ -39,25 +39,54 @@
 
 
 
-.carousel-inner>.item {
-  height: 100vh;
+/* .carousel-inner>.item {
+  margin: 0 auto;
+    width: auto;
+  /* height: 100vh;
+  background-size: cover;
+    background-position: center center; 
+} */
+
+.carousel-item img {
+  margin: 0 auto;
+  /* this will align the image to center. */
+  width: auto;
+  /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
 }
 
-.carousel-inner>.item>img {
+.carousel-item video {
+  margin: 0 auto;
+  /* this will align the image to center. */
+  width: auto;
+  /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
+}
+
+ /* .carousel-inner>.item>img {
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  max-height: 800px;
+  /* max-height: 800px;
   width: auto;
+}  */
+
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+  width: 100%;
 }
 
+.carousel-inner>.item>video,
+.carousel-inner>.item>a>video {
+  width: 100%;
+}
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;
 }
+
 
 @media (max-width: 640px) {
   .carousel {
