@@ -13,15 +13,15 @@ export default function NavBar (){
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Promos</a>
+          <a class="nav-link" href="#promos">Promos</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services &amp; Prices
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Service Description</a></li>
-            <li><a class="dropdown-item" href="#">Prices</a></li>
+            <li><a class="dropdown-item" href="#services">Service Description</a></li>
+            <li><a class="dropdown-item" href="#prices">Prices</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -29,9 +29,9 @@ export default function NavBar (){
             Store
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">About the Team</a></li>
-            <li><a class="dropdown-item" href="#">Hours</a></li>
-            <li><a class="dropdown-item" href="#">ContactUs</a></li>
+            <li><a class="dropdown-item" href="#team">About the Team</a></li>
+            <li><a class="dropdown-item" href="#footer">Hours</a></li>
+            <li><a class="dropdown-item" href="#footer">ContactUs</a></li>
           </ul>
         </li>
       </ul>

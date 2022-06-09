@@ -1,7 +1,7 @@
 export default function Prices (){
     return(
 
-<div className="container-md mt-5">
+<div id="prices" className="container-md mt-5">
     <div className="card">
 <div className="card-header text-center text-primary"><b>Services &amp; Prices</b></div>
                     <div className="row my-5 g-5 justify-content-around align-items-center">
@@ -24,7 +24,7 @@ export default function Prices (){
                             <div id="chapter-1" className="accordion-collapse collapse show" aria-labelledby="heading-1"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                                                        <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -32,7 +32,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                     <table className="table">
                 <thead className="table-success">
                     <tr>
@@ -82,7 +82,7 @@ export default function Prices (){
                             <div id="chapter-2" className="accordion-collapse collapse" aria-labelledby="heading-2"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                    <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -90,7 +90,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                                         <table className="table">
                 <thead className="table-info">
                     <tr>
@@ -140,7 +140,7 @@ export default function Prices (){
                             <div id="chapter-3" className="accordion-collapse collapse" aria-labelledby="heading-3"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                                                        <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -148,7 +148,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                                        <table className="table">
                 <thead className="table-dark">
                     <tr>
@@ -198,7 +198,7 @@ export default function Prices (){
                             <div id="chapter-4" className="accordion-collapse collapse" aria-labelledby="heading-4"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                                                        <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -206,7 +206,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                                         <table className="table">
                 <thead className="table-dark">
                     <tr>
@@ -256,7 +256,7 @@ export default function Prices (){
                             <div id="chapter-5" className="accordion-collapse collapse" aria-labelledby="heading-5"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                                                        <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -264,7 +264,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                                         <table className="table">
                 <thead className="table-dark">
                     <tr>
@@ -314,7 +314,7 @@ export default function Prices (){
                             <div id="chapter-6" className="accordion-collapse collapse" aria-labelledby="heading-6"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                                                        <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -322,7 +322,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                                         <table className="table">
                 <thead className="table-dark">
                     <tr>
@@ -372,7 +372,7 @@ export default function Prices (){
                             <div id="chapter-7" className="accordion-collapse collapse" aria-labelledby="heading-7"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                                                        <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -380,7 +380,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                                         <table className="table">
                 <thead className="table-dark">
                     <tr>
@@ -430,7 +430,7 @@ export default function Prices (){
                             <div id="chapter-8" className="accordion-collapse collapse" aria-labelledby="heading-8"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                                                        <p className="serviceDescription">
+                                                                        <div className="serviceDescription">
                                         <h5> Description</h5>
                                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
@@ -438,7 +438,7 @@ export default function Prices (){
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
                                         sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    </p>
+                                    </div>
                                                         <table className="table">
                 <thead className="table-success">
                     <tr>

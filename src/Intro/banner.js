@@ -2,8 +2,10 @@
 export const Headline=()=>{
     return (
       <>
-<div className="alert alert-warning" role="alert">
-  A simple warning alert—check it out!
+<div id="sales"style={{ backgroundImage:`url(${'assets/images/summerSale.png'})` }}className="alert alert-warning alert-dismissible fade show" role="alert">
+  <i class="bi bi-brightness-high"></i><a href="#promos" class="alert-link">Hot Summer Deals</a> Until Canada Day!<i class="bi bi-brightness-high"></i>
+  {/* <img className="img-fluid w-50 d-none d-sm-block" src="assets/images/summerSale.png" alt="" /> */}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
     </>
 );

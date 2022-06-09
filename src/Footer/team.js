@@ -1,6 +1,6 @@
 export default function Team (){
     return(
-    <section id="instructors" className="p-5 bg-light">
+    <section id="team" className="p-5 bg-light">
         <div className="container">
             <h2 className="text-center text-dark">About the Team</h2>
             <p className="lead text-center text-dark mb-5">
