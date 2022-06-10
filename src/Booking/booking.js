@@ -60,34 +60,15 @@ export default function Booking() {
                             <div id="select-Time" className="accordion-collapse collapse" aria-labelledby="selectTime"
                                 data-bs-parent="#chapters">
                                 <div className="accordion-body">
-                                    <p> On {date.toDateString()},the following time slots follow:</p>
+                                    <p> On {date.toDateString()}, the following time slots follow:</p>
                                     
                                     {((Data[date.getDate()].length)!==0)?
                                     (Data[date.getDate()]).map((time) =>(
-                                        <button key={time} type="button" className="btn btn-outline-success px-3 m-2" ><b>{time}</b></button>
+                                        <button key={time} type="button" className="btn btn-outline-primary px-3 m-2" ><b>{time}</b></button>
                                     ))
                                     :<p> On {date.toDateString()},We have not available time slots</p>}
 
                                     <p>Please arrive <b>at least 10 minutes before </b> your scheduled appointment</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="accordion-item">
-                            <h2 className="accordion-header" id="heading-4">
-                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chapter-4">
-                                    <b> Step 4. Tire Purchase </b>
-                                </button>
-                            </h2>
-                            <div id="chapter-4" className="accordion-collapse collapse" aria-labelledby="heading-4"
-                                data-bs-parent="#chapters">
-                                <div className="accordion-body">
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
-                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
-                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda delectus
-                                        sapiente quidem consequatur odit adipisci necessitatibus nemo aliquid minus modi
-                                        tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                 </div>
                             </div>
                         </div>

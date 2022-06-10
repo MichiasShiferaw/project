@@ -10,9 +10,8 @@ function Footer2 () {
     <div className="col-6 col-md">
       <h5>Features</h5>
       <ul className="list-unstyled text-small">
-        <li><b>Main Location: </b><a className="link-secondary" href="/#">42 Wallaby Way </a></li>
-        <li><b>Corporate #: </b> <a className="link-secondary" href="/#">(555) 555-5555 </a></li>
-        <li><b>Corporate @: </b><a className="link-secondary" href="/#">car@doctor.com </a></li>
+        <li><b>Main Location: </b><a className="link-secondary" href="/#"><br/>42 Wallaby Way </a></li>
+        <li><b>Corporate Contact: </b> <a className="link-secondary" href="/#"><br/>(555) 555-5555<br/>car@doctor.com </a></li>
 
       </ul>
     </div>
@@ -28,7 +27,7 @@ function Footer2 () {
       </ul>
     </div>
     <div className="col-6 col-md">
-      <h5>HELP</h5>
+      <h5>Help</h5>
       <ul className="list-unstyled text-small">
         <li><a className="link-secondary" href="/#">Customer Service</a></li>
         <li><a className="link-secondary" href="/#">My Account</a></li>
@@ -38,7 +37,7 @@ function Footer2 () {
       </ul>
     </div>
     <div className="col-6 col-md">
-      <h5>Hours Status: <b className="text-success">OPEN</b> </h5>
+      <h5>Our Status: <b className="text-success">OPEN</b> </h5>
       <ul className="list-unstyled text-small">
         <li>Monday-Friday: <i>09:30-20:30</i></li>
         <li>Saturday: <i>09:00-18:00</i></li>

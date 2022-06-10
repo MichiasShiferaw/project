@@ -1,5 +1,5 @@
-import PersonalInfo from "../Checkout/personalInfo";
-import { CarComponent } from "../Checkout/Car/carComponent";
+// import PersonalInfo from "../Checkout/personalInfo";
+// import { CarComponent } from "../Checkout/Car/carComponent";
 import React, { Component } from "react";
 
 export class ConfirmModal extends Component {
@@ -63,7 +63,7 @@ export class ConfirmModal extends Component {
     </div>
   </div>
 </div>
- <a data-bs-dismiss="offcanvas" className="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" type="submit" role="button">Open first modal</a> 
+ <a data-bs-dismiss="offcanvas" className="w-100 btn btn-primary btn-lg" data-bs-toggle="modal" href="#exampleModalToggle" type="submit" role="button">Confirm</a> 
 
 </>
 );

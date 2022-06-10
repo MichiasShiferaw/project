@@ -5,7 +5,7 @@ function Sidebar () {
       <>
 
 <div className="offcanvas offcanvas-end off-canvas-md" data-bs-backdrop="false" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <nav id="navbar-example2" className="navbar navbar-light bg-light mx-0">
+  <nav id="navbar-example2" className="navbar navbar-light bg-light m-0 ms-2">
   <h1 className="navbar-brand m-0" id="offcanvasExampleLabel">My Carts</h1>
   <ul className="nav nav-pills">
 
@@ -23,7 +23,6 @@ function Sidebar () {
         <li><a className="dropdown-item" data-bs-toggle="collapse" data-bs-target="#select-Date" aria-expanded="true" aria-controls="select-Date" href="#selectDate">Select Date</a></li>
         <li><a className="dropdown-item" data-bs-toggle="collapse" data-bs-target="#select-Staff" aria-expanded="true" aria-controls="select-Staff"href="#selectStaff">Select Staff</a></li>
         <li><a className="dropdown-item" data-bs-toggle="collapse" data-bs-target="#select-Time" aria-expanded="true" aria-controls="select-Time"href="#selectTime">Select Time</a></li>
-        <li><a className="dropdown-item" href="#IDK">IDK</a></li>
       </ul>
     </li>
 
@@ -33,7 +32,6 @@ function Sidebar () {
       <ul className="dropdown-menu">
         <li><a className="dropdown-item" href="#personalInfo">Personal Info</a></li>
         <li><a className="dropdown-item" href="#terms">Terms</a></li>
-        <li><a className="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
       </ul>
     </li>
 
@@ -43,7 +41,6 @@ function Sidebar () {
 </nav>
   <div className="offcanvas-body">
     <Checkout/>
-    {/* <span><ConfirmModal/></span> */}
   </div>
 </div>
 

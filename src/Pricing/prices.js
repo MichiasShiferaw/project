@@ -1,9 +1,9 @@
 export default function Prices (){
     return(
-
+<section className="py-3"style={{backgroundColor:"#3A5BA0"}}>
 <div id="prices" className="container-md mt-5">
     <div className="card">
-<div className="card-header text-center text-primary"><b>Services &amp; Prices</b></div>
+<h1 className="text-center text-primary"><b>Services &amp; Prices</b></h1>
                     <div className="row my-5 g-5 justify-content-around align-items-center">
                 <div className="col-6 col-lg-6">
                     <img src="/assets/images/car.png" className="img-fluid" alt="ebook"/>
@@ -34,11 +34,11 @@ export default function Prices (){
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
                                     <table className="table">
-                <thead className="table-success">
+                <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -92,11 +92,11 @@ export default function Prices (){
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
                                                         <table className="table">
-                <thead className="table-info">
+                <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -154,7 +154,7 @@ export default function Prices (){
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -212,7 +212,7 @@ export default function Prices (){
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -270,7 +270,7 @@ export default function Prices (){
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -328,7 +328,7 @@ export default function Prices (){
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -386,7 +386,7 @@ export default function Prices (){
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -440,11 +440,11 @@ export default function Prices (){
                                         tempore quibusdam quas vitae, animi ipsam nulla sunt alias.</p>
                                     </div>
                                                         <table className="table">
-                <thead className="table-success">
+                <thead className="table-dark">
                     <tr>
                     <th scope="col">Item#</th>
                     <th scope="col">Car Size</th>
-                    <th scope="col">Standard Price ($ CDN) *</th>
+                    <th scope="col">Standard Price ($ CDN)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -487,6 +487,5 @@ export default function Prices (){
         </div>
     </div>
 </div>
+</section>
     )}
-
-    {/* <div className="container-6 container-lg-8 mt-5"> */}

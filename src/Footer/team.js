@@ -72,7 +72,7 @@ export default function Team (){
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile3.png" width= "100%" className="rounded-circle mb-3"
                                 alt="" />
-                            <h3 className="card-title mb-3">Robbert</h3>
+                            <h3 className="card-title mb-3">Robert</h3>
                             <p className="card-text">
                                 <b>NICKNAME: </b><i>Bobby</i><br/>
                                 <b>ROLE: </b><i>Junior Mechanic</i><br/>
@@ -121,10 +121,10 @@ export default function Team (){
                         <div className="card-body text-center">
                             <img src="/assets/images/Profile3.png" width= "100%" className="rounded-circle mb-3"
                                 alt="" />
-                            <h3 className="card-title mb-3">Sara </h3>
+                            <h3 className="card-title mb-3">Emily</h3>
                             <p className="card-text">
-                                <b>NICKNAME: </b><i>--</i><br/>
-                                <b>ROLE: </b><i>NEW Mechanic</i><br/>
+                                <b>NICKNAME: </b><i>Shaq</i><br/>
+                                <b>ROLE: </b><i>new Mechanic</i><br/>
                                 <b>START DATE: </b> <i>2022</i>
                             </p>
                             

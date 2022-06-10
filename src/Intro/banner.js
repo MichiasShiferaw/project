@@ -13,8 +13,8 @@ export const Headline=()=>{
 
 export const Steps=()=>{
     return (
-      <>
-      <div id="steps" className="container-md bg-secondary text-light p-3">
+      <><section style={{backgroundColor:"#3A5BA0"}}>
+      <div id="steps" style={{backgroundColor:"#3A5BA0"}}className="container-md text-light p-3">
 
 <div className="row">
       <div className="col-lg-3">
@@ -52,6 +52,7 @@ export const Steps=()=>{
       </div>
     </div>
     </div>
+    </section>
     </>
 );
 };
