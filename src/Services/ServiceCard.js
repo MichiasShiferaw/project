@@ -9,7 +9,7 @@ function ServiceCard () {
                 <div className="card bg-secondary text-light">
                     <div className="card-body text-center">
                         <div className="h1 mb-3">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="76.52pt" height="35pt" viewBox="0 0 739.000000 338.000000" preserveAspectRatio="xMidYMid meet">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="63.4pt" height="29pt" viewBox="0 0 739.000000 338.000000" preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,338.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
 <path d="M1860 3013 c-74 -38 -100 -124 -60 -202 31 -62 63 -71 244 -71 l156 0 0 -235 0 -235 -461 0 c-322 0 -473 -4 -500 -12 -51 -15 -114 -69 -142 -122 l-22 -41 0 -865 0 -865 22 -41 c12 -22 38 -55 58 -72 l36 -32 1738 0 1738 0 33 23 c26 17 167 243 630 1016 l597 994 98 49 c53 27 102 47 109 45 6 -3 128 -105 271 -227 147 -125 282 -232 310 -246 117 -56 258 -4 319 118 46 92 32 161 -50 239 -81 76 -644 550 -695 585 -57 38 -117 49 -181 32 -26 -7 -509 -242 -1073 -522 -895 -445 -1027 -508 -1038 -494 -6 8 -64 85 -128 169 -118 156 -171 213 -231 246 -30 17 -77 18 -593 23 l-560 5 0 230 0 230 165 5 c110 3 173 9 188 18 37 21 62 72 62 125 0 57 -19 97 -57 123 -26 18 -55 19 -488 22 -423 2 -463 1 -495 -15z m3278 -1175 c-8 -13 -167 -277 -353 -588 -186 -311 -345 -573 -353 -582 -14 -17 -96 -18 -1454 -18 l-1438 0 0 580 0 580 945 0 945 0 108 -137 c311 -395 290 -376 412 -370 l75 3 555 277 c305 152 558 277 563 277 5 0 3 -10 -5 -22z"/>
@@ -112,7 +112,7 @@ function ServiceCard () {
                         <div className="card bg-dark text-light">
                             <div className="card-body text-center">
                                 <div className="h1 mb-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="35.000000pt" height="35.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="26.000000pt" height="26.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
 <path d="M919 4696 c-88 -31 -139 -79 -178 -166 -18 -40 -21 -66 -21 -237 l0 -193 100 0 100 0 0 164 c0 91 4 176 10 191 19 50 53 55 350 55 297 0 331 -5 350 -55 6 -15 10 -100 10 -191 l0 -164 100 0 100 0 0 193 0 194 -31 61 c-32 65 -66 99 -133 135 -40 21 -52 22 -381 24 -261 2 -348 0 -376 -11z"/>
