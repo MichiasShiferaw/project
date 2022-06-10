@@ -94,12 +94,12 @@ export default function Checkout () {
               </a>
           </button> */}
            {/* <button type="button" data-bs-dismiss="offcanvas" className=" btn-lg">Confirm123 */}
-           {/* <button onClick={<ConfirmModal/>} class="btn btn-primary" data-bs-backdrop="false" data-bs-toggle="modal" data-bs-target="#exampleModalToggle"
+           {/* <button onClick={<ConfirmModal/>} className="btn btn-primary" data-bs-backdrop="false" data-bs-toggle="modal" data-bs-target="#exampleModalToggle"
             type="submit"
            >
              Submit form</button>
 
-                        <button class="btn btn-primary"
+                        <button className="btn btn-primary"
            >
              Submit form1</button> */}
 

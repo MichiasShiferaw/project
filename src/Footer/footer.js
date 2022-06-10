@@ -66,7 +66,7 @@ function Footer2 () {
 </p>
 </div>
   <p className="lead ">Copyright &copy; 2022 Car Doctor 
-  <span className="tt" data-bs-placement="bottom" title="Go To Top"><a href="/#" className=" end-0 ">
+  <span className="tt ms-3" data-bs-placement="bottom" title="Go To Top"><a href="/#" className=" end-0 ">
     
                 <i className="bi bi-arrow-up-circle h1"></i>
             </a>

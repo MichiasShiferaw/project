@@ -31,7 +31,7 @@ function ServiceCard () {
                 <div className="card bg-dark text-light">
                     <div className="card-body text-center">
                         <div className="h1 mb-3">
-                            <i class="bi bi-fan"></i>
+                            <i className="bi bi-fan"></i>
                         </div>
                         <h3 className="card-title mb-3">Air Filters</h3>
                         <p className="card-text">
@@ -61,7 +61,7 @@ function ServiceCard () {
                 <div className="card bg-dark text-light">
                     <div className="card-body text-center">
                         <div className="h1 mb-3">
-                            <i class="bi bi-currency-dollar"></i>
+                            <i className="bi bi-currency-dollar"></i>
                         </div>
                         <h3 className="card-title mb-3">Tire Purchase</h3>
                         <p className="card-text">
@@ -82,7 +82,7 @@ function ServiceCard () {
                         <div className="card bg-dark text-light">
                             <div className="card-body text-center">
                                 <div className="h1 mb-3">
-                                    <i class="bi bi-currency-dollar"></i>
+                                    <i className="bi bi-currency-dollar"></i>
                                 </div>
                                 <h3 className="card-title mb-3">Tire Installation</h3>
                                 <p className="card-text">
@@ -137,7 +137,7 @@ function ServiceCard () {
                         <div className="card bg-secondary text-light">
                             <div className="card-body text-center">
                                 <div className="h1 mb-3">
-                                    <i class="bi bi-plus-lg"></i>
+                                    <i className="bi bi-plus-lg"></i>
                                 </div>
                                 <h3 className="card-title mb-3">Other</h3>
                                 <p className="card-text">

@@ -37,15 +37,20 @@
   }
 }
 
+table.table-fit {
+  width: auto !important;
+  table-layout: auto !important;
+}
 
+table.table-fit thead th,
+table.table-fit tfoot th {
+  width: auto !important;
+}
 
-/* .carousel-inner>.item {
-  margin: 0 auto;
-    width: auto;
-  /* height: 100vh;
-  background-size: cover;
-    background-position: center center; 
-} */
+table.table-fit tbody td,
+table.table-fit tfoot td {
+  width: auto !important;
+}
 
 .carousel-item img {
   margin: 0 auto;
@@ -61,16 +66,6 @@
   /* for those images which don't have a width specified, but has a max-height will be auto adjusted */
 }
 
- /* .carousel-inner>.item>img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  /* max-height: 800px;
-  width: auto;
-}  */
 
 
 .carousel-inner>.item>img,
@@ -102,7 +97,16 @@
   .carousel {
     display: none;
   }
+
 }
+
+@media (max-width: 995px) {
+    #steps {
+        display: none;
+      }
+
+}
+
 
 .offcanvas.show {
   visibility: visible;
