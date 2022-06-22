@@ -9,7 +9,7 @@ export default function Launch (){
                 <div>
                     <h1>Welcome To <span style={{color:"#FFA500"}}> Car Doctor </span></h1>
                     <p className="lead my-4">
-                        Created in 1999, Car Doctor is ranked <span  style={{color:"#FFA500"}}><b>#1</b></span> in 21st Century Auto Repair Stores in the world. Car Doctor performs simple jons to more complex with our World Class Mechanics. 
+                        Created in 1999, Car Doctor was ranked <span  style={{color:"#FFA500"}}><b>#1</b></span> in 21st Century Auto Repair Stores in the last three years. Car Doctor performs simple jobs to more complex with our World Class Mechanics. Car Doctor was awarded Highest Customer Satisfaction Award among all mechanic shops in North America.          
                     </p>
                     <a style={{backgroundColor:"#FFA500"}}className="btn btn-lg" href="#promos">Begin Your Browse</a>
                 </div>

@@ -15,7 +15,18 @@ export default class Checkout extends Component {
       lastName:'Smoe',
       email: 'jsmoe123@uottawa.ca',
       phoneNumber:'123-456-6789',
-      unqiueTags:[]
+      unqiueTags:[],
+      price:-7.00,
+      services:{
+        oilChange:false,
+        airFilter:false,
+        tirePurchase:false,
+        tireInstal:false,
+        brakes:false,
+        batteryInstall:false
+
+      }
+      
     };
     this.onYearChange = this.onYearChange.bind(this);
     this.onMakeChange = this.onMakeChange.bind(this);
@@ -23,7 +34,37 @@ export default class Checkout extends Component {
     this.onModelChange = this.onModelChange.bind(this);
     this.onSubmitForm = this.onSubmitForm.bind(this);
     this.handleChange = this.handleChange.bind(this);
+    this.handleCheckbox= this.handleCheckbox.bind(this);
 
+  }
+  
+
+  handleCheckbox= event=> {
+    // let {price} = this.state;
+    // //console.log(input.target.value)
+    // // if (checked) {
+    //   price += input.target.value;
+    // //} 
+    // // else {
+    // //   price -= input.target.value;
+    // // }
+    var value1= parseFloat(event.target.value);
+    console.log(event.target.value);
+    let state = this.state;
+    // let {price}= this.state;
+    state.services[event.target.value]=event.target.checked;
+
+    if (event.target.checked){
+      state.price+=value1;
+      
+    } else{
+      state.price-=value1;
+    }
+    console.log(event.target.checked)
+this.setState(state);
+    // this.setState({
+    //   price
+    // });
   }
   handleChange(event) {
   const value = event.target.value;
@@ -90,43 +131,59 @@ export default class Checkout extends Component {
         </h4>
         <ul className="list-group mb-3">
           <li className="list-group-item d-flex justify-content-between lh-sm">
-            <div className="my-0 ms-0">
-              <h6  className="my-0 ms-0">Oil Change</h6>
+            <div className="align-">
+              
+              <h6><input onChange={this.handleCheckbox}  className="form-check-input me-1" type="checkbox" value="12" aria-label="..."/>Oil Change</h6>
               <small className="text-muted">3.5L Synthetic</small>
             </div>
-            <span className="text-muted">$12.99</span>
+            <span className="text-muted">$12</span>
           </li>
           <li className="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 className="my-0">Air Filter</h6>
-              <small className="text-muted">Paper: Vers. AED 50</small>
+              <h6><input onChange={this.handleCheckbox} className="form-check-input me-1" type="checkbox" value="14" aria-label="..."/>Air Filter</h6>
+              <small className="text-muted">AED 50</small>
             </div>
-            <span className="text-muted">$14.99</span>
+            <span className="text-muted">$14</span>
           </li>
           <li className="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 className="my-0">Tire Purchase</h6>
-              <small className="text-muted">Bridgestone Summer Sets</small>
+              <h6 className="my-0"><input onChange={this.handleCheckbox}  className="form-check-input me-1" type="checkbox" value="145" aria-label="..."/>Tire Purchase</h6>
+              <small className="text-muted">Bridgestone</small>
             </div>
             <span className="text-muted">$145</span>
           </li>
                     <li className="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 className="my-0">Tire Installation</h6>
-              <small className="text-muted">All Tires</small>
+              <h6 className="my-0"><input onChange={this.handleCheckbox} className="form-check-input me-1" type="checkbox" value="65" aria-label="..."/>Tire Installation</h6>
+              <small className="text-muted" >All Tires</small>
             </div>
             <span className="text-muted">$65</span>
+          </li>
+          
+                              <li className="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6><input onChange={this.handleCheckbox}  className="form-check-input me-1" type="checkbox" value="32" aria-label="..."/>Brakes</h6>
+              <small className="text-muted">2023 Edition</small>
+            </div>
+            <span className="text-muted">$32</span>
+          </li>
+                              <li className="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6><input onChange={this.handleCheckbox} className="form-check-input me-1" type="checkbox" value="12" aria-label="..."/>Battery Installation</h6>
+              <small className="text-muted">45 Watts</small>
+            </div>
+            <span className="text-muted">$12</span>
           </li>
           <li className="list-group-item d-flex justify-content-between bg-light">
             <div className="text-success">
               <h6 className="my-0">Promo code</h6>
               <small>SUMMERDEALS</small>
             </div>
-            <span className="text-success">−$55</span>
+            <span className="text-success">−$7</span>
           </li>
           <li className="list-group-item d-flex justify-content-between">
             <span>Total (CDN)</span>
-            <strong>$182.98</strong>
+            <strong>${this.state.price}</strong>
           </li>
         </ul>
 
@@ -246,7 +303,8 @@ export default class Checkout extends Component {
         lastName={this.state.lastName}
         email={this.state.email}
         phoneNumber={this.state.phoneNumber}
-        firstName={this.state.firstName} handleChange={this.handleChange.bind(this)}/>
+        firstName={this.state.firstName} handleChange={this.handleChange.bind(this)}
+        price={this.state.price} handleCheckbox={this.handleCheckbox.bind(this)}/>
 {/* </button>  */}
 
 

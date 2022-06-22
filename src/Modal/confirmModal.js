@@ -36,9 +36,11 @@ export class ConfirmModal extends Component {
         <br/>
         Model:{this.props.model1}
         {/* {console.log(CarComponent).state} */}
+         <br/>
+        Price:{this.props.price}
       </div>
       <div className="modal-footer">
-        <button className="btn btn-success" data-bs-target="#ModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Confirm</button>
+        <a className="btn btn-success" data-bs-target="#ModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Confirm</a>
       </div>
     </div>
   </div>
@@ -69,7 +71,7 @@ export class ConfirmModal extends Component {
         </div>
       </div>
       <div className="modal-footer">
-        <button className="btn btn-secondary" data-bs-target="#ModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Go Back</button>
+        <a className="btn btn-secondary" data-bs-target="#ModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Go Back</a>
         <button className="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Close</button>
       </div>
     </div>
