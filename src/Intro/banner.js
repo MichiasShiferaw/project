@@ -23,7 +23,7 @@ export const Steps=()=>{
   <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/><title>Placeholder</title>
 </svg>
         <h2>Order</h2>
-        <p><button className="btn btn-secondary"data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">View details »</button></p>
+        <p><button className="btn btn-secondary"data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">View details »</button></p>
       </div>
       <div className="col-lg-3">
         
@@ -31,7 +31,7 @@ export const Steps=()=>{
   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/><title>Placeholder</title>
 </svg>
         <h2>Book An Appointment</h2>
-        <p><button className="btn btn-secondary"data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">View details »</button></p>
+        <p><button className="btn btn-secondary"data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">View details »</button></p>
       </div>
       <div className="col-lg-3">
         

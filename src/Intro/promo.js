@@ -3,12 +3,12 @@
 export default function Promo() {
   return (
     <div id="promos" className="container pt-4 bg-transparent">
-<div id="carouselExampleInterval" className="carousel slide carousel-fade justify-content-center align-items-center" data-bs-ride="carousel">
+<div id="carouselInterval" className="carousel slide carousel-fade justify-content-center align-items-center" data-bs-ride="carousel">
   <div className="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   
   <div className="carousel-inner">
@@ -31,11 +31,11 @@ export default function Promo() {
 
 
   </div>
-  <button  className="carousel-control-prev " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+  <button  className="carousel-control-prev " type="button" data-bs-target="#carouselInterval" data-bs-slide="prev">
     <span  className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
-  <button className="carousel-control-next " type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+  <button className="carousel-control-next " type="button" data-bs-target="#carouselInterval" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>

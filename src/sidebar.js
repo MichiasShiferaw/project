@@ -4,9 +4,9 @@ function Sidebar () {
     return (
       <>
 
-<div className="offcanvas offcanvas-end off-canvas-md" data-bs-backdrop="false" tabIndex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <nav id="navbar-example2" className="navbar navbar-light bg-light m-0 ms-2">
-  <h1 className="navbar-brand m-0" id="offcanvasExampleLabel">My Carts</h1>
+<div className="offcanvas offcanvas-end off-canvas-md" data-bs-backdrop="false" tabIndex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+  <nav id="navbar-2" className="navbar navbar-light bg-light m-0 ms-2">
+  <h1 className="navbar-brand m-0" id="offcanvasLabel">My Carts</h1>
   <ul className="nav nav-pills">
 
     <li className="nav-item dropdown">

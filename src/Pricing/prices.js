@@ -507,7 +507,7 @@ export default function Prices (){
                         </div>
                     </div>
                     </div>
-                    <button className="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Begin Shopping</button>
+                    <button className="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">Begin Shopping</button>
                     </div>
             
 

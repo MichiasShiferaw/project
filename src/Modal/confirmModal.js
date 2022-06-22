@@ -12,11 +12,11 @@ export class ConfirmModal extends Component {
               {this.somefunction()}
 
 
-<div className="modal fade" data-bs-keyboard="false" data-bs-backdrop="static"id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabIndex="-1">
+<div className="modal fade" data-bs-keyboard="false" data-bs-backdrop="static"id="ModalToggle" aria-hidden="true" aria-labelledby="ModalToggleLabel" tabIndex="-1">
   <div className="modal-dialog modal-dialog-centered">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalToggleLabel">Confirmation</h5>
+        <h5 className="modal-title" id="ModalToggleLabel">Confirmation</h5>
         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div className="modal-body">
@@ -38,16 +38,16 @@ export class ConfirmModal extends Component {
         {/* {console.log(CarComponent).state} */}
       </div>
       <div className="modal-footer">
-        <button className="btn btn-success" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Confirm</button>
+        <button className="btn btn-success" data-bs-target="#ModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Confirm</button>
       </div>
     </div>
   </div>
 </div>
-<div className="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabIndex="-1">
+<div className="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="ModalToggle2" aria-hidden="true" aria-labelledby="ModalToggleLabel2" tabIndex="-1">
   <div className="modal-dialog modal-dialog-centered">
     <div className="modal-content">
       <div style={{backgroundColor:"#24cb01"}} className="modal-header">
-        <h2 className="modal-title" id="exampleModalToggleLabel2">You Are Booked!<i className="bi bi-check"></i></h2>
+        <h2 className="modal-title" id="ModalToggleLabel2">You Are Booked!<i className="bi bi-check"></i></h2>
         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div className="modal-body">
@@ -69,13 +69,13 @@ export class ConfirmModal extends Component {
         </div>
       </div>
       <div className="modal-footer">
-        <button className="btn btn-secondary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Go Back</button>
+        <button className="btn btn-secondary" data-bs-target="#ModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Go Back</button>
         <button className="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Close</button>
       </div>
     </div>
   </div>
 </div>
- <a data-bs-dismiss="offcanvas" className="w-100 btn btn-primary btn-lg" data-bs-toggle="modal" href="#exampleModalToggle" type="submit" role="button">Confirm</a> 
+ <a data-bs-dismiss="offcanvas" className="w-100 btn btn-primary btn-lg" data-bs-toggle="modal" href="#ModalToggle" type="submit" role="button">Confirm</a> 
 
 </>
 );

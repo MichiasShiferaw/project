@@ -37,7 +37,7 @@ export default function NavBar (){
         </li>
       </ul>
       <form className="d-flex">
-        <button style={{backgroundColor:"#1F4690"}}className="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i className="bi bi-cart-fill"></i>Open Cart</button>
+        <button style={{backgroundColor:"#1F4690"}}className="btn text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"><i className="bi bi-cart-fill"></i>Open Cart</button>
       </form>
     </div>
   </div>

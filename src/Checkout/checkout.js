@@ -82,7 +82,7 @@ export default class Checkout extends Component {
   render(){
     return (
       <>
-      <div className="container" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabIndex="0">
+      <div className="container" data-bs-spy="scroll" data-bs-target="#navbar-2" data-bs-offset="0" tabIndex="0">
             <div id="scrollspyHeading1" className="col-sm-12 col-lg-12 order-md-last">
         <h4 className="d-flex justify-content-between align-items-center mb-3">
           <span className="text-primary">Your cart</span>
@@ -151,7 +151,7 @@ export default class Checkout extends Component {
         model1={this.state.model1}  onModelChange={this.onModelChange.bind(this)} 
         size1={this.state.size1} onSizeChange={this.onSizeChange.bind(this)} 
         make1={this.state.make1} onMakeChange={this.onMakeChange.bind(this)} /> */}
-        <select value={this.state.year1} name="Year" onChange={this.onYearChange} className="form-select my-3" aria-label="Default select example" required>
+        <select value={this.state.year1} name="Year" onChange={this.onYearChange} className="form-select my-3" aria-label="Default select " required>
             {/* {Data[0][2005]} */}
             
              {Object.keys(Data).map((opt,index)=>(
@@ -160,14 +160,14 @@ export default class Checkout extends Component {
             
         </select>
 
-        <select value={this.state.make1} name="Make" onChange={this.onMakeChange} className="form-select my-3" aria-label="Default select example" required>
+        <select value={this.state.make1} name="Make" onChange={this.onMakeChange} className="form-select my-3" aria-label="Default select " required>
             <option>Select Make</option>
              {Object.keys(Data[this.state.year1]).map((opt,index)=>(
               <option key={index} value={opt}>{opt}</option>
             ))} 
         </select>
 
-        <select value={this.state.size1} name="Size" onChange={this.onSizeChange} className="form-select my-3" aria-label="Default select example">
+        <select value={this.state.size1} name="Size" onChange={this.onSizeChange} className="form-select my-3" aria-label="Default select ">
             <option>Select Size</option>
 
             { Data[this.state.year1][this.state.make1] ? Object.keys(Data[this.state.year1][this.state.make1]).map((opt,index)=>(
@@ -176,7 +176,7 @@ export default class Checkout extends Component {
             
         </select>
 
-        <select value={this.state.model1} name="Model" onChange={this.onModelChange} className="form-select my-3" aria-label="Default select example" required>
+        <select value={this.state.model1} name="Model" onChange={this.onModelChange} className="form-select my-3" aria-label="Default select " required>
             <option>Select Model</option> 
             { Data[this.state.year1]?.[this.state.make1]?.[this.state.size1] ? (Data[this.state.year1][this.state.make1][this.state.size1]).map((opt,index)=>(
               <option key={index} value={opt}>{opt}</option>
@@ -212,7 +212,7 @@ export default class Checkout extends Component {
               <span className="input-group-text">
                                 <i className="bi bi-envelope-fill"></i>
                             </span>
-              <input type="email" className="form-control" id="email" placeholder="you@example.com"name='email' defaultValue= {this.state.email} onChange={(e) => {     this.handleChange(e); }}required/>
+              <input type="email" className="form-control" id="email" placeholder="you@.com"name='email' defaultValue= {this.state.email} onChange={(e) => {     this.handleChange(e); }}required/>
               </div>
             </div>
 
